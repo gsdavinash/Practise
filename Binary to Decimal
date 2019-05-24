@@ -1,0 +1,64 @@
+public class MyClass {
+    public static void main(String args[]) {
+       String s="1011";
+        System.out.println("Hello World");
+        int h=Integer.valueOf(s,2);
+        System.out.println(h);
+        String b=Integer.toString(h,8);
+        System.out.println(b);
+        System.out.println("======original procedure=====");
+        int sum=0;
+        for(int j=0;j<s.length();j++)
+        {
+            String sc=Character.toString(s.charAt(j));
+            Integer g=Integer.parseInt(sc)*(int)Math.pow(2,(s.length()-1-j));
+            sum=sum+g;
+        }
+        System.out.println("sum is"+sum);
+        System.out.println("=====secondway===============");
+        Integer i1=new Integer(s);
+        int x=0;
+        sum=0;
+        while(i1>0)
+        {
+            int rem=i1%10;
+            sum=sum+((rem)*(int)Math.pow(2,x));
+            x++;
+            i1=i1/10;
+        }
+        System.out.println("second sum is "+sum);
+        System.out.println("=======Decimal to String===================");
+        StringBuilder sb=new StringBuilder();
+        int value=106;
+        System.out.println(value);
+        int index=8;
+        while(value>=index)
+        {
+            int div=value/index;
+            int rem=value%index;
+         if(rem==10 && index==16)
+        {
+            switch(rem)
+            {
+                case 10:
+                    {
+                        sb.append('a');
+                        break;
+                    }
+                
+                
+            }
+        }
+        else
+        {
+            sb.append(rem);
+        }
+            value=div;
+        }
+      
+        sb.append(value);
+        sb.reverse();
+        System.out.println("string value is "+sb);
+        
+    }
+}
