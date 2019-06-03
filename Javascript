@@ -1,0 +1,23 @@
+header tag  align  <br><h<br> by default
+font face="Arial" size="10px" 
+bgcolor
+for  concatenation we can use + or comma operator
+Absence of value is undefined for a variable.
+to declare a constant we use const keyword
+
+Naming convention:
+Variable name should not match with keyword
+variable name should start with alphabet,$,_ is permitted
+variable name can contain number
+varialbe name cannot have special characters except $,_
+variable name is case sensitive
+
+typeof: is used to identify the data type
+
+Datatypes:
+
+
+
+
+What is Javascript?What is ECMA?
+What is document?methods in Document?
