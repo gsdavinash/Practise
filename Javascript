@@ -15,9 +15,17 @@ variable name is case sensitive
 typeof: is used to identify the data type
 
 Datatypes:
-
+number
+boolean
+String
+undefined
+Array
+Object
 
 
 
 What is Javascript?What is ECMA?
 What is document?methods in Document?
+Explain the Naming Convention for Variables in javascript?
+Explain about datatypes and typeof in javascript?
+
