@@ -15,12 +15,19 @@ variable name is case sensitive
 typeof: is used to identify the data type
 
 Datatypes:
+Primitive datatypes:
 number
 boolean
 String
+
+
 undefined
+null
 Array
 Object
+function,date,
+Regular expressions
+
 
 
 
