@@ -29,6 +29,13 @@ function,date,
 Regular expressions
 
 
+typecasting:
+parseInt(String) --converts String datatype to Number datatype
+if String is starting with number and contains alphabets it discards all the characters and display the number
+"2"+"4a"-->24
+"2a"+"4a"-->2
+"a2"+"4"-->NaN
+
 
 
 What is Javascript?What is ECMA?
