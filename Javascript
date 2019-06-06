@@ -38,8 +38,70 @@ if String is starting with number and contains alphabets it discards all the cha
 
 
 
+
 What is Javascript?What is ECMA?
 What is document?methods in Document?
 Explain the Naming Convention for Variables in javascript?
 Explain about datatypes and typeof in javascript?
+
+
+Javascript is a clientside scripting language,case-sensitive language,
+object based language ,protype based language
+javascript makes the html page dynamic
+var a, var A  --both are different
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>
+
+//define variables  
+
+datatype variablename;
+
+
+datatypes
+=========
+primitive datatypes--number boolean String
+special datatypes-- null;undefined
+reference datatype--object,array,function,regularexpression
+
+
+all these datatypes are represented using var keyword 
+keywords like  const,let 
+
+Naming convention:
+variable name should not match with keyword
+variable names are case sensitive
+variable name should start with alphabet and special characters like $,_
+variable name can contain number
+varialbe does not accept special characters except $,_ 
+
+//define functions
+
+
+//use predefined objects
+
+document.write
+, or + can also be used for concatenation
+
+</script>
+</head>
+<body>
+<h5>by default has br tag before and after</h5>
+<h6 align="center"> align is attribute of h6 tag</h6>
+<font face="Novelty" size="15px">Avinash</font>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
 
