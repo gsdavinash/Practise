@@ -13,6 +13,8 @@ varialbe name cannot have special characters except $,_
 variable name is case sensitive
 
 typeof: is used to identify the data type
+typeof NaN --number
+typeof Infinity --number
 
 Datatypes:
 Primitive datatypes:
@@ -29,12 +31,7 @@ function,date,
 Regular expressions
 
 
-typecasting:
-parseInt(String) --converts String datatype to Number datatype
-if String is starting with number and contains alphabets it discards all the characters and display the number
-"2"+"4a"-->24
-"2a"+"4a"-->2
-"a2"+"4"-->NaN
+
 
 
 
@@ -95,6 +92,53 @@ document.write
 
 </body>
 </html>
+
+
+typecasting:
+implicit typecasting
+2+"2" --converts number to String
+2+2.5 -- Integer number will be converted to Float datatype
+
+explicit typecasting
+parseInt,parseFloat,eval
+
+parseInt(String) --converts String datatype to Number datatype
+if it is unable to mconvert then it return NaN
+it removes decimal places 
+if String is starting with number and contains alphabets it discards all the characters and display the number
+"2"+"4a"-->24
+"2a"+"4a"-->2
+"a2"+"4"-->NaN
+
+parseFloat  --Converts String data to number data with decimals
+if it is unable to convert it returns NaN.
+it does not remove the decimals
+if the Starting with number and contains text data then it removes the text data and return the number
+"3.14"-->3.14
+"3.14a"-->3.14
+"a3.14"-->NaN
+
+eval()--used to evaluate number and expression
+
+Operators:
+=========
+--Logical Operators( &&, ||,!)
+--Arithmetic Operators (+,-,/,%)
+--Relational Operators (>,<,>=,<=,==,===,!=,!==)
+--Assignment Operators (+=,-=,*=,/=)
+Bitwise operators()
+Increment & Decrement  Operators(++,--)
+--Conditional Operators(?:)
+Special Operators()
+
+
+
+
+
+
+
+
+
 
 
 
