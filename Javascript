@@ -131,6 +131,19 @@ Increment & Decrement  Operators(++,--)
 --Conditional Operators(?:)
 Special Operators()
 
+^ is exclusive or if both values are diffrent then it gives 1 otherwise 0
+~ is a bitwise complement operator. for x it gives -(x+1) as the output.
+<< --leftshift operator   x<<y  --> (x*2^y)
+>> right shift operator x>>y -->(x/2*y)
+
+
+special operators:
+typeof,comma,
+
+comma:
+var x=(4,5)+(6,9);
+x=14;
+
 
 
 
