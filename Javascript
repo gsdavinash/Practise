@@ -138,12 +138,26 @@ Special Operators()
 
 
 special operators:
-typeof,comma,
+typeof,comma,new,delete
 
 comma:
 var x=(4,5)+(6,9);
 x=14;
 
+new:
+===
+var x=new Object();
+
+delete
+======
+used to delete a property from an object.
+delete x.rollno;
+document.write(x.rollno); //undefined
+
+debugging
+
+F8 --resume the execution
+F10 --next line
 
 
 
