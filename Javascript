@@ -159,7 +159,32 @@ debugging
 F8 --resume the execution
 F10 --next line
 
+//for in loop is used to loop the attributes of an object
+//for(var c in onbjectname)
+{
+document.write(o[c]);
+}
+//functions:
+function declarations are hoiseted where as function expressions are not hoisted
 
+function fname(parameters)
+{
+
+}
+
+function expression:
+var vname=function(parameters)
+{
+
+}
+
+function constructor:
+var vname=new Function("parameters","functionbody");
+
+Immediately Invokable FunctionExpression:(iife)
+executed immediately as defined 
+these are self executable functions
+(function(x,y){----})(2,4);
 
 
 
